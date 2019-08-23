@@ -1,0 +1,7 @@
+<!--pages/eg/eg.wxml-->
+
+
+<view style='display:flex;flex-wrap:wrap;'>
+  <image wx:for="{{list}}" wx:key src='{{item.pic}}' bindtap='picChange' data-id='{{index}}' class="pic"></image>
+</view>
+<view wx:for="{{list01}}" wx:key  data-id='{{index}}' bindtap='picChange01'>{{item.pic01}}</view>

@@ -1,0 +1,3 @@
+<!--pages/eg02/eg02.wxml-->
+<text>pages/eg02/eg02.wxml</text>
+<view>{{pic01}}</view>
